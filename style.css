@@ -1,0 +1,293 @@
+body {
+    background-color: #FDF2EC !important;
+}
+span{
+    color: #FE8162;
+}
+.navbar{
+    border-bottom: rgb(147, 142, 139);
+    background-color: #FDF2EC;
+}
+.framer img {
+    height: 2.8rem;
+    margin-left: 1rem;
+}
+.framer {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+    margin-bottom: 0.5rem;
+}
+.nav-features a {
+    text-decoration: none;
+    color: #1c1c1c;
+    margin-left: 2.5rem;
+    font-size: 1.15rem;
+    font-family: sans-serif;
+}
+.nav-features a:hover {
+    color: #8247FF;
+}
+.nav-features{
+    margin-left: 33rem;
+}
+@media (max-width: 640px) {
+    .nav-features a{
+        display: none;
+    }
+}
+.btn{
+    margin-left: 2rem;
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 40%;
+    width: 20%;
+    padding: 3px;
+    border: 0.1px #1c1c1c ;
+    box-shadow: 0px 1px 3px black;
+    border-radius: 0.5rem;
+}
+.w1{
+    color: #8247FF !important;
+    margin-left: 0.5rem;
+}
+.welcome:hover{
+    box-shadow: 0px 3px 4px black;
+}
+.m-one h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.5rem;
+    margin-top: 10px;
+    margin-bottom: 1rem;
+}
+
+.m-two {
+    margin-top: 2rem;
+    padding-left: 35%;
+}
+.btn-m1 {
+    color: white !important;
+    background-color: #8247FF !important;
+    font-size: 1.5rem !important;
+    box-shadow: 0px 1px 3px black;
+}
+.btn-m2 {
+    color: black !important;
+    background-color: rgb(236, 217, 217) !important;
+    font-size: 1.4rem !important;
+    box-shadow: 1px 1px 3px black;
+}
+.m-two button:hover{
+    font-size: 1.55rem !important;
+    box-shadow: 2px 2px 4px black;
+}
+.m-three img{
+    width: 60%;
+    border-radius: 1.5rem !important;
+}
+.m-three{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.page-2-1 {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.premier-features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 0.5rem;
+    width: 15%;
+    padding: 3px;
+    color: #8247FF !important;
+    box-shadow: 0px 1px 3px black;
+}
+.premier-features:hover{
+    box-shadow: 0px 2px 4px black;
+    background-color: rgb(193, 191, 191);
+}
+.premier-features i {
+    color: #FE8162 ;
+    font-size: 1.3rem;
+}
+.page-2-2 {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.discover-p {
+    text-align: center;
+}
+.space-center{
+    text-align: center;
+}
+.card{
+    width: 50%;
+    margin-left: 20rem;
+    border-radius: 1.5rem !important;
+}
+.card h2{
+    margin-left: 2rem;
+}
+.p-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #767575;
+    font-size: 1.5rem;
+}
+.card-text {
+    color: #767575;
+    font-size: 1.1rem;
+    margin-left: 2rem;
+}
+.page-4, .page-5, .page-6{
+    padding-top: 3rem;
+}
+.black-div{
+    background-color: #1c1c1c;
+    height: 129rem;
+}
+.black-h1 {
+    padding-top: 3rem;
+    color: white;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    font-size: 3rem;
+}
+.blacl-p{
+    margin-top: 1rem;
+    color: #767575;
+    font-size: 1.3rem;
+    margin-left: 3rem;
+}
+.black-form1 {  
+    margin-top: 3rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: #212121;
+    width: 88%;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-left: 4.4rem;
+}
+.black-form1:hover{
+    background-color: #3b3b3b;
+    box-shadow: 0 0.5rem 1rem rgb(46, 46, 46);
+}
+.black-icons{
+    font-size: 2.5rem;
+    height: 4rem;
+    width: 4rem;
+    background-color: #8247FF;
+    border-radius: 1.3rem;
+    margin-left: 47%;
+}
+
+.hr-line{
+    margin-top: 5rem;
+    border: 0.1px solid white;
+}
+/* Pricing */
+.pricing-head{
+    margin-top: 3rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.pricing-head h2{
+    color: white;
+    font-size: 3rem;
+}
+.inline-price{
+    display: flex;
+    align-items: end;
+    margin-left: 1.5rem;
+}
+.cardprice{
+    border-radius: 1.5rem !important;
+}
+
+.p-card{
+    width: 20rem;
+    background-color: #ededfa !important;
+}
+.p-card i{
+    color: green;
+}
+.p-btn {
+    background-color: white !important;
+    margin-bottom: 1.5rem;
+}
+.p-btn:hover {
+    box-shadow: 0px 1px 3px black ;
+}
+
+.cardd2 {
+    margin-top: 2rem;
+    display: flex;
+    margin-left: 9rem;
+}
+.btn1{
+    margin-left: 4rem !important;
+}
+.c3{
+    margin-left: 3rem;
+}
+/* FAQ section */
+.need-answers{
+    margin: 2.5rem 0 0 5rem;
+}
+.p-ans{
+    margin-top: 1rem;
+    color: #767575;
+    font-size: 1.2rem;
+}
+
+/* .setting-w{
+    margin-left: 5rem;
+    width: 90%;
+} */
+/* .setting-self{
+    margin-bottom: 1rem;
+    border-radius: 3rem ;
+} */
+
+/* Footer */
+.copyright{
+    display: flex;
+    align-items: center;
+}
+.footer-img img{
+    height: 2.5rem ;
+    margin: 0 0 2rem 19rem;
+
+}
+.cop{
+    margin: 0 0 2rem 5rem;
+    font-size: 1.2rem ;
+    color: #333333;
+}
+.socials {
+    font-size: 2rem;
+    margin: 0 0 2rem 23rem;
+}
+
